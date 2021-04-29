@@ -1,38 +1,56 @@
-.App {
+.trello-app {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  height: 100%;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  border-bottom: 1px solid #ccc;
+}
+
+.add-btn-container {
+  margin: 15px 20px;
+  text-align: right;
+}
+
+.list-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 85vh;
 }
 
-.App-link {
-  color: #61dafb;
+.del-list-btn,
+.del-card-btn {
+  font-size: 30px;
+  padding: 0;
+  float: right;
+  border: none;
+  display: contents;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.del-list-btn svg,
+.del-card-btn svg {
+  float: inherit;
+}
+
+.add-card-btn {
+  border: none;
+  font-size: 50px;
+  color: orangered;
+  display: inline-flex;
+  padding: 0;
+}
+
+svg {
+  vertical-align: super;
+}
+
+.card-desc p {
+  margin: 0;
+  padding: 5px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
