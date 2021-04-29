@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <div className="trello-app">
-      <header className="App-header">
+      <header className="app-header">
         <h1>Trello Board</h1>
       </header>
       <div className="add-btn-container">

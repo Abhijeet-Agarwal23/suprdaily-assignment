@@ -3,8 +3,9 @@
   height: 100%;
 }
 
-.App-header {
+.app-header {
   border-bottom: 1px solid #ccc;
+  padding: 10px;
 }
 
 .add-btn-container {
@@ -14,7 +15,9 @@
 
 .list-container {
   display: flex;
-  height: 85vh;
+  min-height: 85%;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
 .del-list-btn,
