@@ -1,0 +1,39 @@
+.list {
+  border: 1px solid #8d8d8d;
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 200px;
+  position: relative;
+}
+
+.list-header {
+  border-bottom: 1px solid rgb(141, 141, 141);
+  background-color: #bbb;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  word-break: break-all;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-title {
+  margin-right: 10px;
+}
+
+.list-items {
+  padding: 10px;
+  max-height: 82%;
+  overflow-y: auto;
+}
+
+.add-card-btn-contianer {
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.list-items .trello-card:not(:first-child) {
+  margin-top: 10px;
+}

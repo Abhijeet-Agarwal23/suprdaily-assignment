@@ -1,0 +1,16 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.text-input span {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.text-input input,
+.text-input textarea {
+  padding: 5px 10px;
+}
