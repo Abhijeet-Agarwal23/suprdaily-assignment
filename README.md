@@ -1,4 +1,4 @@
-### Trello Board assignment
+# Trello Board assignment
 
 ## Run the following to start the app
 
